@@ -17,19 +17,8 @@
     <h2>Home</h2>
     <p>This is the home page for the restaurant</p>
 
-    <p><input type="button" class="buttons" value="Order Now" onclick="checkoutWindow();"></p>
-
-
-
-
+    <a href="Order.html"><input type="button" class="buttons" value="Order Now"></a>
     <script>
-        function checkoutWindow() {  
-            checkWin = window.open("checkout.htm", "", "width=300, height=300, status=no");
-            checkWin.document.write("<p>Your order is being processed, thank you for your service!");
-        }
-        function closeCheckOut() {
-            checkWin.close();
-        }
     </script>
 
 </body>
