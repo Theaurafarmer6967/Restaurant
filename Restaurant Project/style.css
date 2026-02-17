@@ -32,3 +32,16 @@ h2, p {
 .navbar .navbar1 .navbar2:hover {
   background-color: #02fc0e;
 }
+
+.buttons {
+  font-size: 1em;
+	font-family: inherit;
+	border: #333333 1px solid;
+	width: 150px;
+	background: #fff;
+	background: -webkit-linear-gradient(top, #fff , #979797);
+	background: -o-linear-gradient(bottom, #fff, #979797); 
+	background: -moz-linear-gradient(bottom, #fff, #979797); 
+	background: linear-gradient(to bottom, #fff , #979797); 
+  border-radius: 5px;
+}
