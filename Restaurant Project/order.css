@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h2, p {
+    margin: 10px;
+}
+
+/*Below is the navigation bar - Jaden*/ 
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+.navbar .navbar1 {
+  float: left;
+}
+
+.navbar .navbar1 .navbar2 {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar .navbar1 .navbar2:hover {
+  background-color: #fc0202;
+}
+/*Button styling by Lawton*/
+
+.buttons {
+  font-size: 1em;
+	font-family: inherit;
+	border: #333333 1px solid;
+	width: 150px;
+	background: #fff;
+	background: -webkit-linear-gradient(top, #fff , #979797);
+	background: -o-linear-gradient(bottom, #fff, #979797); 
+	background: -moz-linear-gradient(bottom, #fff, #979797); 
+	background: linear-gradient(to bottom, #fff , #979797); 
+  border-radius: 5px;
+}
+
+.itemquantity {
+	width: 100px;
+	float: left;
+	text-align: center;
+}
+
+.itemquantity input {
+	border: #000 1px solid;
+	width: 20px;
+	text-align: center;
+	font-size: 1em;
+	font-family: inherit;
+}
