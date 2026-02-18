@@ -53,7 +53,7 @@ h2, p {
 
 #menu_col{
   border: 1px solid lightgray;
-  background-color: white;
+  background-color: rgb(209, 209, 209);
   margin: 5px;
   flex: 1;
 }
