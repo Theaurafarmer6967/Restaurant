@@ -8,132 +8,437 @@
 </head>
 <body>
 
-    <ul class="navbar">
-        <li class="navbar1"><a class="navbar2" href="Home.html">Home</a></li>
-        <li class="navbar1"><a class="navbar2" href="Menu.html">Menu</a></li>
-        <li class="navbar1"><a class="navbar2" href="Contact.html">Contact</a></li>
-    </ul>
+<ul class="navbar">
+    <li class="navbar1"><a class="navbar2" href="Home.html">Home</a></li>
+    <li class="navbar1"><a class="navbar2" href="Menu.html">Menu</a></li>
+    <li class="navbar1"><a class="navbar2" href="Contact.html">Contact</a></li>
+</ul>
 
-    <div id="breakfaststyling">
-        <div class="image">
+<div id="menu">
+    <h1 id="section">Order Page</h1>
+    <p id="description">
+    <div id="menu_row">
+        <div id="menu_col">
+            <h2>Breakfast</h2>
             <div class="box">
-                <div id="breakfast"><img src="/breakfast images/zesty.png" height="120" alt=""></div>
-            </div>
-
+                <div id="image">
+                    <img src="/breakfast images/zesty.png" alt="">
+                </div>
+                <div>
+                    <h3>Zesty Breakfast Sandwich</h3>
+                    <h4>$11</h4>
+                </div>
             <div class="itemquantity">
                 <p>
-                    <input type="text" value="0" id="manqty"> <br/>
-                    <button id="manqtyadd" onclick="javascript: document.getElementById('manqty').value++;">+</button>
-                    <button id="manqtysubtract" onclick="javascript: document.getElementById('manqty').value--;">-</button>  
-                    <button id="manqtyzero" onclick="javascript: document.getElementById('manqty').value = null;">Clear</button>
+                    <input type="text" value="0" id="zesty"> <br/>
+                    <button id="manqtyadd" onclick="javascript: document.getElementById('zesty').value++;">+</button>
+                    <button id="manqtysubtract" onclick="javascript: document.getElementById('zesty').value--;">-</button>  
+                    <button id="manqtyzero" onclick="javascript: document.getElementById('zesty').value = 0;">Clear</button>
                 </p>
             </div>
         </div>
-
-        <div class="image">
             <div class="box">
-                <div id="breakfast"><img src="/breakfast images/waffle.png" height="120" alt=""></div>
+                <div id="image">
+                    <img src="/breakfast images/burrito.png" alt="">
+                </div>
+                <div>
+                    <h3>Breakfast Buck Burrito</h3>
+                    <h4>$15</h4>
+                </div>
+                <div class="itemquantity">
+                    <p>
+                        <input type="text" value="0" id="burrito"> <br/>
+                        <button id="manqtyadd" onclick="javascript: document.getElementById('burrito').value++;">+</button>
+                        <button id="manqtysubtract" onclick="javascript: document.getElementById('burrito').value--;">-</button>  
+                        <button id="manqtyzero" onclick="javascript: document.getElementById('burrito').value = 0;">Clear</button>
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <div id="image">
+                    <img src="/breakfast images/maple.png" alt="">
+                </div>
+                <div>
+                    <h3>Peach and Maple Butter Bruléed Pancakes</h3>
+                    <h4>$14</h4>
+                </div>
+                <div class="itemquantity">
+                    <p>
+                        <input type="text" value="0" id="maple"> <br/>
+                        <button id="manqtyadd" onclick="javascript: document.getElementById('maple').value++;">+</button>
+                        <button id="manqtysubtract" onclick="javascript: document.getElementById('maple').value--;">-</button>  
+                        <button id="manqtyzero" onclick="javascript: document.getElementById('maple').value = 0;">Clear</button>
+                    </p>
+                </div>
             </div>
 
+            <div class="box">
+                <div id="image">
+                    <img src="/breakfast images/benedict.png" alt="">
+                </div>
+                <div>
+                    <h3>Idaho Eggs Benedict</h3>
+                    <h4>$9</h4>
+                </div>
             <div class="itemquantity">
                 <p>
-                    <input type="text" value="0" id="manqty"> <br/>
-                    <button id="manqtyadd" onclick="javascript: document.getElementById('manqty').value++;">+</button>
-                    <button id="manqtysubtract" onclick="javascript: document.getElementById('manqty').value--;">-</button>  
-                    <button id="manqtyzero" onclick="javascript: document.getElementById('manqty').value = null;">Clear</button>
+                    <input type="text" value="0" id="benedict"> <br/>
+                    <button id="manqtyadd" onclick="javascript: document.getElementById('benedict').value++;">+</button>
+                    <button id="manqtysubtract" onclick="javascript: document.getElementById('benedict').value--;">-</button>  
+                    <button id="manqtyzero" onclick="javascript: document.getElementById('benedict').value = 0;">Clear</button>
                 </p>
+            </div>
+            </div>
+            <div class="box">
+                <div id="image">
+                    <img src="/breakfast images/bites.png" alt="">
+                </div>
+                <div>
+                    <h3>Maple Waffle Batter Bites Breakfast Plate</h3>
+                    <h4>$7</h4>
+                </div>
+                <div class="itemquantity">
+                    <p>
+                        <input type="text" value="0" id="bites"> <br/>
+                        <button id="manqtyadd" onclick="javascript: document.getElementById('bites').value++;">+</button>
+                        <button id="manqtysubtract" onclick="javascript: document.getElementById('bites').value--;">-</button>  
+                        <button id="manqtyzero" onclick="javascript: document.getElementById('bites').value = 0;">Clear</button>
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <div id="image">
+                    <img src="/breakfast images/apple.png" alt="">
+                </div>
+                <div>
+                    <h3>Apple Pancake Breakfast</h3>
+                    <h4>$11</h4>
+                </div>
+                <div class="itemquantity">
+                    <p>
+                        <input type="text" value="0" id="apple"> <br/>
+                        <button id="manqtyadd" onclick="javascript: document.getElementById('apple').value++;">+</button>
+                        <button id="manqtysubtract" onclick="javascript: document.getElementById('apple').value--;">-</button>  
+                        <button id="manqtyzero" onclick="javascript: document.getElementById('apple').value = 0;">Clear</button>
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <div id="image">
+                    <img src="/breakfast images/hash burger.png" alt="">
+                </div>
+                <div>
+                    <h3>Breakfast Hash Brown Smashed Burger</h3>
+                    <h4>$12</h4>
+                </div>
+                <div class="itemquantity">
+                    <p>
+                        <input type="text" value="0" id="hash"> <br/>
+                        <button id="manqtyadd" onclick="javascript: document.getElementById('hash').value++;">+</button>
+                        <button id="manqtysubtract" onclick="javascript: document.getElementById('hash').value--;">-</button>  
+                        <button id="manqtyzero" onclick="javascript: document.getElementById('hash').value = 0;">Clear</button>
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <div id="image">
+                    <img src="/breakfast images/waffle.png" alt="">
+                </div>
+                <div>
+                    <h3>Waffle Loaded Breakfast Fries</h3>
+                    <h4>$7</h4>
+                </div>
+                <div class="itemquantity">
+                    <p>
+                        <input type="text" value="0" id="waffle"> <br/>
+                        <button id="manqtyadd" onclick="javascript: document.getElementById('waffle').value++;">+</button>
+                        <button id="manqtysubtract" onclick="javascript: document.getElementById('waffle').value--;">-</button>  
+                        <button id="manqtyzero" onclick="javascript: document.getElementById('waffle').value = 0;">Clear</button>
+                    </p>
+                </div>
             </div>
         </div>
-
-        <div class="image">
+            <div id="menu_col">
+            <h2>Lunch</h2>
             <div class="box">
-                <div id="breakfast"><img src="/breakfast images/maple.png" height="120" alt=""></div>
+                <div id="image">
+                    <img src="/lunch images/double.png" alt="">
+                </div>
+                <div>
+                    <h3>Simplot Classic Double Burger</h3>
+                    <h4>$10</h4>
+                </div>
+                <div class="itemquantity">
+                    <p>
+                        <input type="text" value="0" id="double"> <br/>
+                        <button id="manqtyadd" onclick="javascript: document.getElementById('double').value++;">+</button>
+                        <button id="manqtysubtract" onclick="javascript: document.getElementById('double').value--;">-</button>  
+                        <button id="manqtyzero" onclick="javascript: document.getElementById('double').value = 0;">Clear</button>
+                    </p>
+                </div>
             </div>
-
-            <div class="itemquantity">
-                <p>
-                    <input type="text" value="0" id="manqty"> <br/>
-                    <button id="manqtyadd" onclick="javascript: document.getElementById('manqty').value++;">+</button>
-                    <button id="manqtysubtract" onclick="javascript: document.getElementById('manqty').value--;">-</button>  
-                    <button id="manqtyzero" onclick="javascript: document.getElementById('manqty').value = null;">Clear</button>
-                </p>
+            <div class="box">
+                <div id="image">
+                    <img src="/lunch images/smash.png" alt="">
+                </div>
+                <div>
+                    <h3>Avocado Smash Burger</h3>
+                    <h4>$12</h4>
+                </div>
+                <div class="itemquantity">
+                    <p>
+                        <input type="text" value="0" id="smash"> <br/>
+                        <button id="manqtyadd" onclick="javascript: document.getElementById('smash').value++;">+</button>
+                        <button id="manqtysubtract" onclick="javascript: document.getElementById('smash').value--;">-</button>  
+                        <button id="manqtyzero" onclick="javascript: document.getElementById('smash').value = 0;">Clear</button>
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <div id="image">
+                    <img src="/lunch images/Onion.png" alt="">
+                </div>
+                <div>
+                    <h3>Caramelized Onion Burger</h3>
+                    <h4>$13</h4>
+                </div>
+                <div class="itemquantity">
+                    <p>
+                        <input type="text" value="0" id="onion"> <br/>
+                        <button id="manqtyadd" onclick="javascript: document.getElementById('onion').value++;">+</button>
+                        <button id="manqtysubtract" onclick="javascript: document.getElementById('onion').value--;">-</button>  
+                        <button id="manqtyzero" onclick="javascript: document.getElementById('onion').value = 0;">Clear</button>
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <div id="image">
+                    <img src="/lunch images/cornchipburger.png" alt="">
+                </div>
+                <div>
+                    <h3>Grain, Chili & Corn Chip Burger</h3>
+                    <h4>$15</h4>
+                </div>
+                <div class="itemquantity">
+                    <p>
+                        <input type="text" value="0" id="corn"> <br/>
+                        <button id="manqtyadd" onclick="javascript: document.getElementById('corn').value++;">+</button>
+                        <button id="manqtysubtract" onclick="javascript: document.getElementById('corn').value--;">-</button>  
+                        <button id="manqtyzero" onclick="javascript: document.getElementById('corn').value = 0;">Clear</button>
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <div id="image">
+                    <img src="/lunch images/pimento.png" alt="">
+                </div>
+                <div>
+                    <h3>Pimento Burger</h3>
+                    <h4>$12</h4>
+                </div>
+                <div class="itemquantity">
+                    <p>
+                        <input type="text" value="0" id="pimento"> <br/>
+                        <button id="manqtyadd" onclick="javascript: document.getElementById('pimento').value++;">+</button>
+                        <button id="manqtysubtract" onclick="javascript: document.getElementById('pimento').value--;">-</button>  
+                        <button id="manqtyzero" onclick="javascript: document.getElementById('pimento').value = 0;">Clear</button>
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <div id="image">
+                    <img src="/lunch images/chicken burger.png" alt="">
+                </div>
+                <div>
+                    <h3>Street Corn Chicken Burger</h3>
+                    <h4>$14</h4>
+                </div>
+                <div class="itemquantity">
+                    <p>
+                        <input type="text" value="0" id="chicken"> <br/>
+                        <button id="manqtyadd" onclick="javascript: document.getElementById('chicken').value++;">+</button>
+                        <button id="manqtysubtract" onclick="javascript: document.getElementById('chicken').value--;">-</button>  
+                        <button id="manqtyzero" onclick="javascript: document.getElementById('chicken').value = 0;">Clear</button>
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <div id="image">
+                    <img src="/lunch images/snack burger.png" alt="">
+                </div>
+                <div>
+                    <h3>Midnight Snack Burger</h3>
+                    <h4>$13</h4>
+                </div>
+                <div class="itemquantity">
+                    <p>
+                        <input type="text" value="0" id="midnight"> <br/>
+                        <button id="manqtyadd" onclick="javascript: document.getElementById('midnight').value++;">+</button>
+                        <button id="manqtysubtract" onclick="javascript: document.getElementById('midnight').value--;">-</button>  
+                        <button id="manqtyzero" onclick="javascript: document.getElementById('midnight').value = 0;">Clear</button>
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <div id="image">
+                    <img src="/lunch images/urban.png" alt="">
+                </div>
+                <div>
+                    <h3>Urban Burger</h3>
+                    <h4>$12</h4>
+                </div>
+                <div class="itemquantity">
+                    <p>
+                        <input type="text" value="0" id="urban"> <br/>
+                        <button id="manqtyadd" onclick="javascript: document.getElementById('urban').value++;">+</button>
+                        <button id="manqtysubtract" onclick="javascript: document.getElementById('urban').value--;">-</button>  
+                        <button id="manqtyzero" onclick="javascript: document.getElementById('urban').value = 0;">Clear</button>
+                    </p>
+                </div>
             </div>
         </div>
-
-        <div class="image">
+                <div id="menu_col">
+            <h2>Dessert</h2>
             <div class="box">
-                <div id="breakfast"><img src="/breakfast images/hash burger.png" height="120" alt=""></div>
+                <div id="image">
+                    <img src="/dessert images/crumb cake.png" alt="">
+                </div>
+                <div>
+                    <h3>Ginger Peach Crumb Cake</h3>
+                    <h4>$14</h4>
+                </div>
+                <div class="itemquantity">
+                    <p>
+                        <input type="text" value="0" id="crumb"> <br/>
+                        <button id="manqtyadd" onclick="javascript: document.getElementById('crumb').value++;">+</button>
+                        <button id="manqtysubtract" onclick="javascript: document.getElementById('crumb').value--;">-</button>  
+                        <button id="manqtyzero" onclick="javascript: document.getElementById('crumb').value = 0;">Clear</button>
+                    </p>
+                </div>
             </div>
-
-            <div class="itemquantity">
-                <p>
-                    <input type="text" value="0" id="manqty"> <br/>
-                    <button id="manqtyadd" onclick="javascript: document.getElementById('manqty').value++;">+</button>
-                    <button id="manqtysubtract" onclick="javascript: document.getElementById('manqty').value--;">-</button>  
-                    <button id="manqtyzero" onclick="javascript: document.getElementById('manqty').value = null;">Clear</button>
-                </p>
-            </div>
-        </div>
-
-        <div class="image">
             <div class="box">
-                <div id="breakfast"><img src="/breakfast images/burrito.png" height="120" alt=""></div>
+                <div id="image">
+                    <img src="/dessert images/caramel.png" alt="">
+                </div>
+                <div>
+                    <h3>Caramel Apple Tater Sticks Dessert</h3>
+                    <h4>$13</h4>
+                </div>
+                <div class="itemquantity">
+                    <p>
+                        <input type="text" value="0" id="caramel"> <br/>
+                        <button id="manqtyadd" onclick="javascript: document.getElementById('caramel').value++;">+</button>
+                        <button id="manqtysubtract" onclick="javascript: document.getElementById('caramel').value--;">-</button>  
+                        <button id="manqtyzero" onclick="javascript: document.getElementById('caramel').value = 0;">Clear</button>
+                    </p>
+                </div>
             </div>
-
-            <div class="itemquantity">
-                <p>
-                    <input type="text" value="0" id="manqty"> <br/>
-                    <button id="manqtyadd" onclick="javascript: document.getElementById('manqty').value++;">+</button>
-                    <button id="manqtysubtract" onclick="javascript: document.getElementById('manqty').value--;">-</button>  
-                    <button id="manqtyzero" onclick="javascript: document.getElementById('manqty').value = null;">Clear</button>
-                </p>
-            </div>
-        </div>
-
-        <div class="image">
             <div class="box">
-                <div id="breakfast"><img src="/breakfast images/bites.png" height="120" alt=""></div>
+                <div id="image">
+                    <img src="/dessert images/cobber.png" alt="">
+                </div>
+                <div>
+                    <h3>Strawberry Cobbler</h3>
+                    <h4>$15</h4>
+                </div>
+                <div class="itemquantity">
+                    <p>
+                        <input type="text" value="0" id="cobber"> <br/>
+                        <button id="manqtyadd" onclick="javascript: document.getElementById('cobber').value++;">+</button>
+                        <button id="manqtysubtract" onclick="javascript: document.getElementById('cobber').value--;">-</button>  
+                        <button id="manqtyzero" onclick="javascript: document.getElementById('cobber').value = 0;">Clear</button>
+                    </p>
+                </div>
             </div>
-
-            <div class="itemquantity">
-                <p>
-                    <input type="text" value="0" id="manqty"> <br/>
-                    <button id="manqtyadd" onclick="javascript: document.getElementById('manqty').value++;">+</button>
-                    <button id="manqtysubtract" onclick="javascript: document.getElementById('manqty').value--;">-</button>  
-                    <button id="manqtyzero" onclick="javascript: document.getElementById('manqty').value = null;">Clear</button>
-                </p>
-            </div>
-        </div>
-
-        <div class="image">
             <div class="box">
-                <div id="breakfast"><img src="/breakfast images/benedict.png" height="120" alt=""></div>
+                <div id="image">
+                    <img src="/dessert images/parfait.png" alt="">
+                </div>
+                <div>
+                    <h3>Sea Salted Caramel Apple Parfait</h3>
+                    <h4>$11</h4>
+                </div>
+                <div class="itemquantity">
+                    <p>
+                        <input type="text" value="0" id="parfait"> <br/>
+                        <button id="manqtyadd" onclick="javascript: document.getElementById('parfait').value++;">+</button>
+                        <button id="manqtysubtract" onclick="javascript: document.getElementById('parfait').value--;">-</button>  
+                        <button id="manqtyzero" onclick="javascript: document.getElementById('parfait').value = 0;">Clear</button>
+                    </p>
+                </div>
             </div>
-
-            <div class="itemquantity">
-                <p>
-                    <input type="text" value="0" id="manqty"> <br/>
-                    <button id="manqtyadd" onclick="javascript: document.getElementById('manqty').value++;">+</button>
-                    <button id="manqtysubtract" onclick="javascript: document.getElementById('manqty').value--;">-</button>  
-                    <button id="manqtyzero" onclick="javascript: document.getElementById('manqty').value = null;">Clear</button>
-                </p>
-            </div>
-        </div>
-
-        <div class="image">
             <div class="box">
-                <div id="breakfast"><img src="/breakfast images/apple.png" height="120" alt=""></div>
+                <div id="image">
+                    <img src="/dessert images/smores.png" alt="">
+                </div>
+                <div>
+                    <h3>Hazelnut S'mores Fries</h3>
+                    <h4>$10</h4>
+                </div>
+                <div class="itemquantity">
+                    <p>
+                        <input type="text" value="0" id="smores"> <br/>
+                        <button id="manqtyadd" onclick="javascript: document.getElementById('smores').value++;">+</button>
+                        <button id="manqtysubtract" onclick="javascript: document.getElementById('smores').value--;">-</button>  
+                        <button id="manqtyzero" onclick="javascript: document.getElementById('smores').value = 0;">Clear</button>
+                    </p>
+                </div>
             </div>
-
-            <div class="itemquantity">
-                <p>
-                    <input type="text" value="0" id="manqty"> <br/>
-                    <button id="manqtyadd" onclick="javascript: document.getElementById('manqty').value++;">+</button>
-                    <button id="manqtysubtract" onclick="javascript: document.getElementById('manqty').value--;">-</button>  
-                    <button id="manqtyzero" onclick="javascript: document.getElementById('manqty').value = null;">Clear</button>
-                </p>
+            <div class="box">
+                <div id="image">
+                    <img src="/dessert images/milkshake.png" alt="">
+                </div>
+                <div>
+                    <h3>Strawberry Milkshake</h3>
+                    <h4>$9</h4>
+                </div>
+                <div class="itemquantity">
+                    <p>
+                        <input type="text" value="0" id="milkshake"> <br/>
+                        <button id="manqtyadd" onclick="javascript: document.getElementById('milkshake').value++;">+</button>
+                        <button id="manqtysubtract" onclick="javascript: document.getElementById('milkshake').value--;">-</button>  
+                        <button id="manqtyzero" onclick="javascript: document.getElementById('milkshake').value = 0;">Clear</button>
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <div id="image">
+                    <img src="/dessert images/cookies.png" alt="">
+                </div>
+                <div>
+                    <h3>Raspberry Crumble Cookies</h3>
+                    <h4>$8</h4>
+                </div>
+                <div class="itemquantity">
+                    <p>
+                        <input type="text" value="0" id="cookies"> <br/>
+                        <button id="manqtyadd" onclick="javascript: document.getElementById('cookies').value++;">+</button>
+                        <button id="manqtysubtract" onclick="javascript: document.getElementById('cookies').value--;">-</button>  
+                        <button id="manqtyzero" onclick="javascript: document.getElementById('cookies').value = 0;">Clear</button>
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <div id="image">
+                    <img src="/dessert images/apple pie.png" alt="">
+                </div>
+                <div>
+                    <h3>Deep-Dish Homemade Roasted Apple Pie</h3>
+                    <h4>$14</h4>
+                </div>
+                <div class="itemquantity">
+                    <p>
+                        <input type="text" value="0" id="pie"> <br/>
+                        <button id="manqtyadd" onclick="javascript: document.getElementById('pie').value++;">+</button>
+                        <button id="manqtysubtract" onclick="javascript: document.getElementById('pie').value--;">-</button>  
+                        <button id="manqtyzero" onclick="javascript: document.getElementById('pie').value = 0;">Clear</button>
+                    </p>
+                </div>
             </div>
         </div>
     </div>
+</div>
+<div id="button" divstyle="text-align:center;"><input type="button" class="buttons" value="Order Now"></div>
 
 </body>
+</html>
