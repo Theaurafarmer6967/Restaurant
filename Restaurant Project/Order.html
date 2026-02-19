@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Order</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="order.css">
 </head>
 <body>
 
@@ -13,3 +13,15 @@
         <li class="navbar1"><a class="navbar2" href="Menu.html">Menu</a></li>
         <li class="navbar1"><a class="navbar2" href="Contact.html">Contact</a></li>
     </ul>
+
+    <div class="itemquantity">
+        <p>
+            <input type="text" value="1" id="manqty"> <br/>
+            <button id="manqtyadd" onclick="javascript: document.getElementById('manqty').value++;">+</button>
+            <button id="manqtysubtract" onclick="javascript: document.getElementById('manqty').value--;">-</button>  
+            <button id="manqtyzero" onclick="javascript: document.getElementById('manqty').value = null;">Clear</button>
+            <button id="manqtyfive" onclick="addFive('manqty');">Add Five</button>
+        </p>
+    </div>
+
+</body>
