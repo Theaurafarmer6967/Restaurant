@@ -92,10 +92,10 @@ h2, p {
 /*Button styling by Lawton*/
 
 .buttons {
-  font-size: 1em;
+  font-size: 2em;
 	font-family: inherit;
 	border: #333333 1px solid;
-	width: 150px;
+	width: 230px;
 	background: #fff;
 	background: -webkit-linear-gradient(top, #fff , #979797);
 	background: -o-linear-gradient(bottom, #fff, #979797); 
@@ -106,7 +106,7 @@ h2, p {
 
 #button {
   float: right;
-  margin-right: 100px;
+  margin-right: 105px;
 }
 
 .itemquantity {
